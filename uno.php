@@ -6,7 +6,7 @@
 	<link rel="stylesheet/less" type="text/css" href="plantilla.less" />
 </head>
 
-<body>
+<body class="uno">
 	<?php include("pie.php")?>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.3.1/less.min.js" type="text/javascript"></script>
 </body>
