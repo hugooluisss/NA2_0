@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title></title>
-	<link rel="stylesheet/less" type="text/css" href="plantilla.less" />
+	<link rel="stylesheet/less" type="text/css" href="less/plantilla.less" />
 </head>
 
 <body class="uno">
