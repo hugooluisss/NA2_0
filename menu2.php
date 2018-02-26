@@ -1,45 +1,31 @@
-<div class="header2">
+<div class="header-menu2">
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-6 col-sm-3 top-menu">
-				<h3>Acerca de neuróticos anónimos</h3>
-				<ul>
-					<li><a href="#">Misión, visión y valores</a></li>
-					<li><a href="#">Contáctanos</a></li>
-					<li><a href="#">Aviso de privacidad</a></li>
-					<li><a href="#">Contáctanos</a></li>
-				</ul>
-			</div>
-			<div class="col-xs-6 col-sm-3 top-menu">
-				<h3>Servicios</h3>
-				<ul>
-					<li><a href="#">Casa Hogar</a></li>
-					<li><a href="#">Visitas a domicilio</a></li>
-					<li><a href="#">Neur-A-Teen</a></li>
-					<li><a href="#">Juntas en sala</a></li>
-					<li><a href="#">Visitas a domicilio</a></li>
-				</ul>
-			</div>
-			<div class="col-xs-6 col-sm-3 top-menu">
-				<h3>Grupos</h3>
-				<ul>
-					<li><a href="#">B. V. Margarita Maza</a></li>
-					<li><a href="#">Villa de la Buena Voluntad</a></li>
-					<li><a href="#">B. V. Ampliación</a></li>
-					<li><a href="#">Contáctanos</a></li>
-					<li><a href="#">Contáctanos</a></li>
-				</ul>
+			<div class="top-menu">
+
+				<div class="logo-menu">
+
+				</div>
+
+				<nav class="menu">
+					<ul>
+						<li><a href="#"><i class="fas fa-2x fa-users"></i>&nbsp&nbspNosotros</a>
+							<ul>
+								<li><a href="#">Nosotros1</a></li>
+								<li><a href="#">Nosotros2</a></li>
+								<li><a href="#">Nosotros3</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Servicios</a></li>
+						<li><a href="#">Testimonios</a></li>
+						<li><a href="#">Datos y Estad&iacutesticas</a></li>
+						<li><a href="#">Esc&uacutechanos</a></li>
+						<li><a href="#">Ub&iacutecanos</a></li>
+					</ul>
+				</nav>
+
 			</div>
 
-			<div class="col-xs-6 col-sm-3 top-menu">
-				<h3>¿NECESITAS AYUDA?</h3>
-				<ul>
-					<li><a href="#"><i class="fas fa-2x fa-envelope"></i> &nbsp;&nbsp;&nbsp;CONTÁCTANOS</a></li>
-					<li><a href="#"><i class="fas fa-phone fa-2x"></i>	&nbsp;&nbsp;&nbsp;LLÁMANOS</a></li>
-					<li><a href="#" data-toggle="modal" data-target="#winUbicanos"><i class="fas fa-2x fa-map-marker-alt"></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UBÍCANOS</a></li>
-
-				</ul>
-			</div>
 		</div>
 	</div>
 </div>

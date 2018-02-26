@@ -1,46 +1,50 @@
-.header2{
-	background-color: @gris;
-	color: white;
+/*INICIO ESTILO top-menu*/
+.header-menu2{
+	background-color: @menu_background;
+	color: @naranja;
 
-	.menu{
+	.menu {
 		font-family: Roboto;
 		padding-bottom: 30px;
-		h3{
-			color: @naranja;
-			text-transform: uppercase;
-			font-size: 16px;
-			font-weight: bold;
-			height: 35px;
-		}
 
-		ul{
-			list-style-type: none;
-			padding-left: 0px;
-			height: 200px;
-			li{
-				padding-left: 0px;
-				a{
-					color: white;
+		ul {
+			display: flex;
+			padding: 0;
+			margin: 0;
+			list-style: none;
 
-					svg{
-						color: @naranja;
+			li {
+				ul {
+					display: none;
+					&:hover {
+						display: block;
 					}
-					span{
-						margin-left: 30px;
+				}
+
+				a {
+					&:hover + ul{
+						display: block;
 					}
 				}
 			}
 		}
+
+		a {
+			display: flex;
+			padding: 0.5em;
+			color: @naranja;
+			align-items: center;
+			text-transform: uppercase;
+			text-decoration: none;
+			font-size: 16px;
+			font-weight: bold;
+			height: 35px;
+
+			&:hover{
+				color: @rojo;
+			}
+		}
 	}
 
-
-
-	&.datosContacto{
-		padding-top: 30px;
-		padding-bottom: 30px;
-		background: @naranja;
-		color: white;
-		font-weight: bold;
-		font-size: 16px;
-	}
 }
+/*FIN ESTILO top-menu*/
