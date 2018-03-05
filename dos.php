@@ -7,7 +7,7 @@
 	<link rel="stylesheet/less" type="text/css" href="less/plantilla.less" />
 </head>
 
-<body>
+<body class="pagina2">
 
 	<?php include("menu2.php")?>
 	<div class="container">
