@@ -10,6 +10,12 @@
 <body class="pagina2">
 
 	<?php include("menu2.php")?>
+
+	<div class="container-fluid">
+		<div class="row top-backgroung-image hidden-xs col-sm-12">
+		</div>
+	</div>
+
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-sm-9 ">
