@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>pagina emigdio</title>
+	<title>pagina emigdio trujillo</title>
 	<link rel="stylesheet/less" type="text/css" href="less/plantilla.less" />
 </head>
 
