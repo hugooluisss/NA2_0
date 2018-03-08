@@ -12,7 +12,7 @@
 	<?php include("menu2.php")?>
 
 	<div class="container-fluid">
-		<div class="row top-backgroung-image hidden-xs col-sm-12">
+		<div class="row top-backgroung-image col-sm-12">
 		</div>
 	</div>
 
@@ -40,66 +40,42 @@
 				<h1>MEDIA:</h1>
 
 				<!-- INICIO ELEMENTO MEDIA -->
-				<div class="vgb">
-					<div id="koya_child_6" class="koya-komponent-binding">
-						<div class="stb ggb">
-							<div class="vgb" data-index="0">
-								<div id="koya_child_7" class="koya-komponent-binding">
-									<div class="on ym eh-lb" data-context-item-id="fuAE3U1NvOs">
-										<a href="/watch?v=fuAE3U1NvOs" onclick="return clk(this);" data-click-tracking-params="CBoQ/FoYACITCJrqlOqYwtkCFRo+Tgod+K4GUTIKZy1oaWdoLXJjaFoPRkV3aGF0X3RvX3dhdGNo" aria-hidden="false">
-											<div class="rm">
-												<div class="qm" style="background-image: url(https://i.ytimg.com/vi/fuAE3U1NvOs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&amp;rs=AOn4CLDoMFNpgPMk9lvSdUwwH36CCbBQsA);"></div>
-												<div class="rn">
-													<span class="kkb" aria-label="3 minutos, 40 segundos">
-														<span style="">3:40</span>
-													</span>
-												</div>
-											</div>
-										</a>
-										<div class="wm">
-											<div class="tm">
-												<a href="/watch?v=fuAE3U1NvOs" onclick="return clk(this);" data-click-tracking-params="CBoQ/FoYACITCJrqlOqYwtkCFRo+Tgod+K4GUTIKZy1oaWdoLXJjaFoPRkV3aGF0X3RvX3dhdGNo" aria-label="Masego - Navajo | A COLORS SHOW - 3 minutos, 40 segundos - ver vídeo">
-													<div class="vm">
-														<span class="kkb">
-															<span style="">Masego - Navajo | A COLORS SHOW</span>
-														</span>
-													</div>
-													<div class="sm">
-														<ul>
-															<li>
-																<span class="kkb">
-																	<span style="">COLORS</span>
-																</span>
-															</li>
-															<li>
-																<span class="kkb">
-																	<span style="">8,6&nbsp;M visualizaciones</span>
-																</span>
-															</li>
-															<li>
-																<span class="kkb">
-																	<span style="">Hace 10 meses</span>
-																</span>
-															</li>
-														</ul>
-													</div>
-												</a>
-												<div class="xm">
-													<div id="koya_child_8" class="koya-komponent-binding">
-														<a href="/channel/UC2Qw1dzXDBAZPwS7zm37g8g" onclick="return clk(this);" data-click-tracking-params="CBoQ/FoYACITCJrqlOqYwtkCFRo+Tgod+K4GUQ==" aria-label="Ver canal">
-															<div class="hrb">
-																<img class="grb" src="https://yt3.ggpht.com/-tZxu1xN73MY/AAAAAAAAAAI/AAAAAAAAAAA/l7rr8wPve70/s68-c-k-no-mo-rj-c0xffffff/photo.jpg">
-															</div>
-														</a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
+				<div class="media-lista">
+					<div class="media-item" data-context-item-id="fuAE3U1NvOs">
+						<a href="#">
+							<div class="media-header">
+
+										<div class="img-responsive media-imagen" style="background-image: url(https://i.ytimg.com/vi/fuAE3U1NvOs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&amp;rs=AOn4CLDoMFNpgPMk9lvSdUwwH36CCbBQsA);"></div>
+
 							</div>
-						</div>
-						<div id="koya_child_16" class="koya-komponent-binding"></div>
+							<div class="media-descripcion">
+								<p>Los cuatros caminos de la neurosis</p>
+							</div>
+						</a>
+					</div>
+					<div class="media-item" data-context-item-id="fuAE3U1NvOs">
+						<a href="#">
+							<div class="media-header">
+
+										<div class="img-responsive media-imagen" style="background-image: url(https://i.ytimg.com/vi/fuAE3U1NvOs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&amp;rs=AOn4CLDoMFNpgPMk9lvSdUwwH36CCbBQsA);"></div>
+
+							</div>
+							<div class="media-descripcion">
+								<p>Los cuatros caminos de la neurosis</p>
+							</div>
+						</a>
+					</div>
+					<div class="media-item" data-context-item-id="fuAE3U1NvOs">
+						<a href="#">
+							<div class="media-header">
+
+										<div class="img-responsive media-imagen" style="background-image: url(https://i.ytimg.com/vi/fuAE3U1NvOs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&amp;rs=AOn4CLDoMFNpgPMk9lvSdUwwH36CCbBQsA);"></div>
+
+							</div>
+							<div class="media-descripcion">
+								<p>Los cuatros caminos de la neurosis</p>
+							</div>
+						</a>
 					</div>
 				</div>
 				<!-- FIN ELEMENTO MEDIA -->

@@ -82,29 +82,42 @@
 
 	}
 	.cotenido {
-		/*background-image: url('../img/FondoNA.jpg');
-		background-position: center top;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-attachment: scroll;*/
 		p {
 			text-align: justify;
 		}
 	}
-
-	@media(max-width: @mq-xs-max) {
-		.contenido {
-			background-image: url('../img/FondoNA.jpg');
-			background-position: center top;
-			background-size: cover;
-			background-repeat: no-repeat;
-			background-attachment: scroll;
-		}
-	}
-
 	/*FIN ESTILO central*/
 
 
 	/*INICIO ESTILO CONTENIDO MEDIA*/
+	.media-lista {
+		.media-item {
+			.media-header {
+				.media-imagen {
+					height: 10em;
+					background-position: center top;
+					background-size: cover;
+					background-repeat: no-repeat;
+					background-attachment: scroll;
+				}
+			}
+			.media-descripcion {
+				p {
+					padding-left: 0.5em;
+					padding-right: 0.5em;
+					padding-top: 1em;
+					padding-bottom: 1em;
+					color: @negro;
+					align-items: center;
+					text-align: center;
+					text-transform: uppercase;
+					text-decoration: none;
+					font-size: 16px;
+					font-weight: bold;
+				}
+			}
+		}
+	}
 	/*FIN ESTILO CONTENIDO MEDIA*/
+
 }
