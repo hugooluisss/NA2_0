@@ -1,13 +1,89 @@
 .uno{
-	#menu{
-		ul{
-			li{
-				colo: @naranja;
+	.menuPrincipal{
+		height: 130px;
+		margin-bottom: 0px;
+		
+		.navbar-header{
+			text-align: center;
+			width: 100%;
+			font-family: Roboto;
+			
+			.brand{
+				
+				img{
+					width: 150px;
+				}
+			}
+		}	
+		
+		.nav-collapse{
+			ul{
+				text-align: center;
+				li{
+					display: inline;
+					
+					a{
+						color: @naranja;
+						text-transform: uppercase;
+						display:inline-block;
+						padding:10px;
+						font-weight: bold;
+					}
+				}
+			}
+		}	
+	}
+	
+	.carousel{
+		.item{
+			max-height: 550px;
+			overflow-y: hidden;
+			
+			&:hover{
+				.cover{
+					
+				}
+			}
+			
+			.cover{
+				width: 100%;
+				filter: blur(5px);
+			}
+			
+			.descripcion{
+				position: absolute;
+				top: 10%;
+				height: 80%;
+				width: 20%;
+				border: 5px solid @naranja;
+				background: white;
+				overflow-y: scroll;
+				
+				
+				@media only screen and (max-width: @mq-xs-max) {
+					width: 80%;
+					right: 10%;
+					height: 70%;
+					
+				}
+				
+				
+				h3{
+					color: @naranja;
+					width: 100%;
+					text-align: center;
+				}
+				
+				p{
+					text-align: justify;
+					color: @naranja;
+					padding: 20px;
+				}
 			}
 		}
 	}
 	
-	.container{
-		
+	.body{
+		min-height: 300px;
 	}
 }
